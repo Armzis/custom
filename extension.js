@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "Armzis Bot";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -46,7 +46,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "Armzis Bot",
       language: "english",
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
@@ -72,25 +72,25 @@
       voteSkipLimit: 10,
       historySkip: false,
       timeGuard: true,
-      maximumSongLength: 10,
+      maximumSongLength: 6,
       autodisable: true,
       commandCooldown: 30,
       usercommandsEnabled: true,
       skipPosition: 3,
       skipReasons: [
-      ["theme", "This song does not fit the room theme. "],
-      ["op", "This song is on the OP list. "],
-      ["history", "This song is in the history. "],
-      ["mix", "You played a mix, which is against the rules. "],
-      ["sound", "The song you played had bad sound quality or no sound. "],
-      ["nsfw", "The song you contained was NSFW (image or sound). "],
-      ["unavailable", "The song you played was not available for some users. "]
+      ["theme", "Ši dainą nėra mūsų kanalo istorijoje. "],
+      ["op", "Ši daina yra OP saraše. "],
+      ["history", "Ši daina yra Istorijoje. "],
+      ["mix", "Tu sugrojai mix'a. Tai yra prieš taisyklęs "],
+      ["sound", "Dainą kurią tu grojai yra užbaninta garsuose arba neturi jų. "],
+      ["nsfw", "Ši dainą su susieta su NSFW (Nuotrauką ar Garsu). "],
+      ["unavailable", "Dainą kurią sugrojote nėra leidžiama. "]
       ],
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
       motdEnabled: false,
       motdInterval: 5,
-      motd: "Temporary Message of the Day",
+      motd: "Sveikas. Tikiuosi liksi su mumis. Gerai praleisk laiką!",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
